@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<main>
+  <title>KSP Online -- Welcome</title>
+  
+  <header>
+    <!--  no locationbar needed for front page
+      <location-bar name="Home" href="index.php" />
+    -->
+  </header>
+  
+  <body>
+    <menu>
+      <menu-item>
+        <title>Bookstore</title>
+        <link>bookstore.php</link>
+      </menu-item>
+      <menu-item>
+        <title>Gifts and Da'wah</title>
+        <link>#</link>
+      </menu-item>
+      <menu-item>
+        <title>Upcoming Titles</title>
+        <link>#</link>
+      </menu-item>
+      <menu-item>
+        <title>Member Resources</title>
+        <link>#</link>
+      </menu-item>
+      <menu-item>
+        <title>Catalog</title>
+        <link>#</link>
+      </menu-item>
+      <menu-item>
+        <title>Current Events</title>
+        <link>#</link>
+      </menu-item>
+      <menu-item>
+        <title>Recommended Links</title>
+        <link>#</link>
+      </menu-item>
+      <menu-item>
+        <title>Customer Service</title>
+        <link>#</link>
+      </menu-item>
+    </menu>
+    
+    <content>
+      <main-feature>
+        <title>
+          Welcome to KSP Online!
+        </title>
+        <graphic link="#">
+        </graphic>
+        <text>
+          Thank you for visiting our new site. Inshallah, there will be much more to come.
+        </text>      
+      </main-feature>
+      
+      
+    </content>
+    
+    <rightnav>
+      <h1>Search Catalog</h1>
+      <form id="searchform" action="catalog.php" method="get" >
+        <input class="ksptextbox" id="searchstr" name="searchstr" type="text" size="12" />
+        <input class="kspbutton" type="submit" value="go" />
+      </form>
+      <div class="hr"><hr /></div>
+      <h1>Featured Specials</h1><div class="hr"><hr /></div>
+      <h1>Coming Soon</h1><div class="hr"><hr /></div>
+      <h1>Join KSP Online</h1><div class="hr"><hr /></div>
+      <h1>Recommend to a friend</h1>    
+    </rightnav>
+  </body>
+  
+  <footer />
+</main>

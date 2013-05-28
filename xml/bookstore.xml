@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<main>
+  <title>KSP Online -- Bookstore</title>
+  <header>
+    <location-bar name="Bookstore" href="bookstore.php">
+      <loc href="index.php">Home</loc>
+    </location-bar>
+  </header>
+  <heading>The Bookstore</heading>
+  <location-bar>
+    <location address="">The Bookstore</location>
+  </location-bar>
+  <books>
+    <heading>Books</heading>
+  </books>
+  <tapes>
+    <heading>Tapes</heading>
+  </tapes>
+</main>
